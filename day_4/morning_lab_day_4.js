@@ -27,3 +27,14 @@ const calculate = (num1, num2, operation) => {
 
 console.log(calculate(4, 3, "sub"));
 console.log(calculate(4, 3, "exp"));
+
+ // pandigital numbers
+ const pandDigital = (number) => {
+   let num = "1, 2, 3, 4, 5, 6, 7, 8, 9"; {
+
+   if (number === number) return "not pandigital";
+   if (number !== number) return "pandigital";
+  }
+}
+ console.log(pandDigital(333));
+ console.log(pandDigital(15234));
